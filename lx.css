@@ -1,0 +1,19 @@
+h2 {
+  text-align: center;
+}
+table {
+  /* 决定是合并还是分开 */
+  border-collapse: collapse;
+  height: 80px;
+  /* 外边距 */
+  margin: 0 auto;
+  text-align: center;
+}
+table tr th {
+  /*边界属性  */
+  border: 1px solid #000;
+}
+th {
+  /* 内边距 */
+  padding: 5px 30px;
+}
