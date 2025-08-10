@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let money = 0;
+
+      while (true) {
+        let num = +prompt(`请您选择操作：
+                1.存钱
+                2.取钱
+                3.查看余额
+                4.退出`);
+        if (num === 4) {
+          break;
+        }
+        if (isNaN)
+          switch (num) {
+            case 1:
+              let num1 = +prompt("请输入存入的金额：");
+              money += num1;
+              alert(`好的你已经存入了${num1}元`);
+              break;
+            case 2:
+              let num2 = +prompt("请输入取出的金额：");
+              money -= num2;
+              alert(`好的你已经取出了${num1}元`);
+              break;
+            case 3:
+              alert(`你的余额为：${money}`);
+              break;
+          }
+      }
+    </script>
+  </body>
+</html>
