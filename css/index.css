@@ -1,0 +1,443 @@
+/* 版心 */
+.wrapper {
+  margin: 0 auto;
+  width: 1200px;
+}
+body {
+  background-color: #f3f5f7;
+}
+/* 头部导航 */
+.header {
+  height: 100px;
+  background-color: #ffffff;
+}
+
+.header .wrapper {
+  display: flex;
+  padding-top: 29px;
+}
+/* logo */
+.logo a {
+  display: block;
+  height: 41px;
+  width: 195px;
+  background-image: url(../images/logo.png);
+  font-size: 0;
+}
+
+/* 导航 */
+.nav {
+  margin-left: 102px;
+}
+.nav ul {
+  display: flex;
+}
+ul li {
+  margin-right: 24px;
+}
+.nav ul li a {
+  display: block;
+  padding: 6px 8px;
+  line-height: 27px;
+  font-size: 19px;
+}
+
+.nav li .active,
+.nav li a:hover {
+  border-bottom: 2px solid #00a4ff;
+}
+
+/* 搜索区域 */
+.search {
+  display: flex;
+  margin-left: 64px;
+  padding-left: 19px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 412px;
+  height: 40px;
+  background-color: #f3f5f7;
+  border-radius: 20px;
+}
+.search input {
+  flex: 1;
+  border: 0;
+  background-color: transparent;
+  outline: 0;
+}
+.search input::placeholder {
+  font: 14px;
+  color: #999;
+}
+.search a {
+  width: 16px;
+  height: 16px;
+  background-image: url(../images/search.png);
+  align-self: center;
+}
+.person {
+  margin-left: 32px;
+  margin-top: 4px;
+  width: 116px;
+  height: 30px;
+}
+.person img {
+  margin-right: 7px;
+  vertical-align: middle;
+}
+.person span {
+  font-size: 14px;
+  color: #666;
+}
+
+.banner {
+  height: 420px;
+  background-color: #0092cb;
+}
+/* banner区域 */
+.banner .wrapper {
+  display: flex;
+  justify-content: space-between;
+  height: 420px;
+  background-image: url(../uploads/banner.png);
+}
+/* 左 */
+.banner .wrapper .left {
+  padding: 3px 20px;
+  background-color: #005576;
+  width: 191px;
+  height: 420px;
+}
+.banner .left a {
+  display: block;
+  height: 46px;
+  background: url(../images/right.png) no-repeat right center;
+  line-height: 46px;
+  color: #fff;
+}
+.banner .left a:hover {
+  background-image: url(../images/right-hover.png);
+  color: #00a4ff;
+}
+/* 右 */
+.banner .right {
+  margin-top: 60px;
+  border-radius: 10px;
+  width: 218px;
+  height: 320px;
+  background-color: #209dd5;
+}
+.banner .right h3 {
+  margin-left: 14px;
+  height: 48px;
+  line-height: 48px;
+  color: #fff;
+}
+
+.banner .right .cotentn {
+  width: 218px;
+  height: 265px;
+  background-color: #fff;
+  padding: 14px;
+  border-radius: 10px;
+}
+
+.banner .right .cotentn dl {
+  border-bottom: 1px solid #e0e0e0;
+  margin-bottom: 12px;
+}
+
+.banner .right .cotentn dl dd {
+  margin-bottom: 8px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+}
+
+.banner .right .cotentn dl dt {
+  margin-bottom: 9px;
+}
+
+.banner .right .cotentn dl dt span {
+  color: #00a4ff;
+}
+
+.banner .right .cotentn dl dt strong {
+  color: #7d7d7d;
+}
+
+.banner .right .cotentn .all {
+  height: 32px;
+  background-color: #00a4ff;
+  border-radius: 15px;
+  line-height: 32px;
+  text-align: center;
+  color: #fff;
+}
+
+/* 精品推荐 */
+.recommend .wrapper {
+  display: flex;
+  padding: 0 20px;
+  width: 1200px;
+  height: 60px;
+  line-height: 60px;
+  background-color: #ffffff;
+  box-shadow: 0px 1px 2px 0px rgba(211, 211, 211, 0.5);
+  margin-top: 12px;
+}
+.recommend .wrapper h3 {
+  font-size: 18px;
+  margin-right: 20px;
+  color: #00a4ff;
+}
+.recommend .wrapper ul {
+  display: flex;
+}
+.recommend .wrapper ul li a {
+  font-size: 16px;
+  padding-right: 24px;
+  border-right: 1px solid #e0e0e0;
+}
+.recommend .wrapper .sb {
+  font-size: 16px;
+  margin-left: 93px;
+  color: #00a4ff;
+}
+.recommend .wrapper ul li .sbb {
+  border-right: none;
+}
+
+/* 公共部分 */
+.hd {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 31px;
+  padding-bottom: 15px;
+}
+.hd h3 {
+  font-size: 21px;
+  font-weight: 400;
+}
+.hd .more {
+  padding-top: 5px;
+  padding-right: 20px;
+  background-image: url(../images/more.png);
+  background-repeat: no-repeat;
+  background-position: right center;
+  color: #999;
+  font-size: 14px;
+}
+/* 公共内容 课程内容 */
+.bd ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.bd ul li {
+  width: 200px;
+  height: 271px;
+  background-color: pink;
+  margin-left: 15px;
+  margin-bottom: 14px;
+}
+.bd ul li a .pic1 {
+  background-image: url(../uploads/course01.png);
+  height: 156px;
+}
+
+.bd ul li a .pic2 {
+  background-image: url(../uploads/course02.png);
+  height: 156px;
+}
+
+.bd ul li a .pic3 {
+  background-image: url(../uploads/course03.png);
+  height: 156px;
+}
+
+.bd ul li a .pic4 {
+  background-image: url(../uploads/course04.png);
+  height: 156px;
+}
+
+.bd ul li a .pic5 {
+  background-image: url(../uploads/course05.png);
+  height: 156px;
+}
+
+.bd ul li a .pic6 {
+  background-image: url(../uploads/course06.png);
+  height: 156px;
+}
+
+.bd ul li a .pic7 {
+  background-image: url(../uploads/course07.png);
+  height: 156px;
+}
+
+.bd ul li a .pic8 {
+  background-image: url(../uploads/course08.png);
+  height: 156px;
+}
+
+.bd ul li a .pic9 {
+  background-image: url(../uploads/course09.png);
+  height: 156px;
+}
+
+.bd ul li a .pic10 {
+  background-image: url(../uploads/course10.png);
+  height: 156px;
+}
+
+.bd ul li a .text {
+  padding: 20px;
+}
+.bd ul li a .text h4 {
+  text-align: center;
+  padding-bottom: 16px;
+}
+.bd ul li a .text span {
+  color: #fa6400;
+}
+.bd ul li a i {
+  color: #999999;
+}
+/* 前端开发工程师 */
+.hd ul {
+  display: flex;
+  margin-left: 213px;
+}
+.hd ul li a {
+  font-size: 16px;
+  line-height: 32px;
+  margin-right: 60px;
+}
+.hd ul li .first,
+.hd ul li a:hover {
+  color: #00a4ff;
+}
+.bd {
+  display: flex;
+  justify-content: space-between;
+}
+.hd .bd .left {
+  width: 228px;
+}
+.bd .right .bottom {
+  margin-top: 20px;
+}
+.bd .right .bottom li {
+  margin-right: 15px;
+}
+.bd ul li a .pic11 {
+  background-image: url(../uploads/python01.png);
+  height: 156px;
+}
+.bd ul li a .pic12 {
+  background-image: url(../uploads/python02.png);
+  height: 156px;
+}
+.bd ul li a .pic13 {
+  background-image: url(../uploads/python03.png);
+  height: 156px;
+}
+.bd ul li a .pic14 {
+  background-image: url(../uploads/python04.png);
+  height: 156px;
+}
+
+/* 人工智能开发 */
+.hd .rgzn {
+  display: flex;
+}
+.hd .rgzn li {
+  width: 228px;
+  height: 271px;
+  background-color: pink;
+}
+
+.bd ul li a .pica {
+  background-image: url(../uploads/ai01.png);
+  height: 156px;
+}
+
+.bd ul li a .picb {
+  background-image: url(../uploads/ai02.png);
+  height: 156px;
+}
+.bd ul li a .picc {
+  background-image: url(../uploads/ai03.png);
+  height: 156px;
+}
+.bd ul li a .picd {
+  background-image: url(../uploads/ai05.png);
+  height: 156px;
+}
+.bd ul li a .pice {
+  background-image: url(../uploads/ai06.png);
+  height: 156px;
+}
+/*  JavaEE */
+.bd ul li a .pico {
+  background-image: url(../uploads/java02.png);
+  height: 156px;
+}
+
+.bd ul li a .picp {
+  background-image: url(../uploads/java03.png);
+  height: 156px;
+}
+.bd ul li a .picq {
+  background-image: url(../uploads/java04.png);
+  height: 156px;
+}
+.bd ul li a .pich {
+  background-image: url(../uploads/java05.png);
+  height: 156px;
+}
+.bd ul li a .picl {
+  background-image: url(../uploads/java05.png);
+  height: 156px;
+}
+
+/* 版权区域 */
+.footer {
+  margin-top: 60px;
+  padding: 60px;
+  height: 273px;
+  background-color: #ffffff;
+}
+.footer .wrapper {
+  display: flex;
+}
+.footer .wrapper .left {
+  width: 440px;
+  margin-right: 100px;
+}
+.footer .wrapper .left .xia {
+  text-align: center;
+
+  width: 120px;
+  height: 36px;
+  background-color: #ffffff;
+  border: solid 1px #00a4ff;
+  font-size: 16px;
+  line-height: 36px;
+  color: #00a4ff;
+}
+.footer .wrapper .right {
+  display: flex;
+}
+.footer .wrapper .right dl {
+  margin-right: 154px;
+}
+.footer .wrapper .right dl dt {
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+
+.footer .wrapper .right dl dt dd {
+  font-size: 14px;
+}
