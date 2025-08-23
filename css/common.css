@@ -1,0 +1,270 @@
+.wrapper {
+  margin: 0 auto;
+  width: 1240px;
+}
+/* 快速导航 */
+.shortcut {
+  background-color: #333;
+  height: 52px;
+}
+.shortcut .wrapper {
+  /* background-color: aqua; */
+  height: 52px;
+}
+.shortcut ul {
+  display: flex;
+  justify-content: flex-end;
+}
+.shortcut ul li a {
+  padding: 0 15px;
+  line-height: 52px;
+  font-size: 14px;
+  color: #fff;
+  border-right: 1px solid #999;
+}
+.shortcut ul li:last-child a {
+  border-right: 0;
+}
+.shortcut ul li .iconfont {
+  margin-right: 4px;
+  vertical-align: middle;
+}
+.shortcut ul .login {
+  color: #5eb69c;
+}
+
+/* 头部区域 */
+
+.header {
+  display: flex;
+  height: 88px;
+  /* background-color: pink; */
+  margin-top: 22px;
+  margin-bottom: 22px;
+}
+/* logo */
+.header .logo {
+  margin-right: 40px;
+}
+.header .logo a {
+  display: block;
+  width: 200px;
+  height: 88px;
+  background-image: url(../images/logo.png);
+  font-size: 0;
+}
+.header .nav ul {
+  display: flex;
+  margin-top: 33px;
+  margin-right: 28px;
+}
+.header .nav ul li a {
+  margin-right: 47px;
+  padding-bottom: 10px;
+}
+.header .nav ul li a:hover {
+  color: #53b69c;
+  border-bottom: 1px solid #53b69c;
+  transition: all 1s; /* 过渡 */
+}
+/* search */
+.search {
+  display: flex;
+  margin-top: 33px;
+  margin-right: 18px;
+  width: 170px;
+  height: 34px;
+  border-bottom: 2px solid #f4f4f4;
+}
+.search .iconfont {
+  margin-right: 8px;
+  font-size: 18px;
+  color: #ccc;
+}
+.search ::placeholder {
+  font-size: 16px;
+  color: #ccc;
+}
+.search input {
+  flex: 1;
+  width: 0;
+}
+/* 购物车 */
+.cart {
+  position: relative;
+  margin-top: 32px;
+}
+.cart .iconfont {
+  font-size: 24px;
+}
+.cart i {
+  height: 15px;
+  padding: 0 6px;
+  background-color: #e26237;
+  position: absolute;
+  left: 1px;
+  top: 1px;
+  border-radius: 8px;
+  font-size: 14px;
+  color: #eee;
+  line-height: 15px;
+}
+
+/* 底部区域 */
+
+.footer {
+  height: 580px;
+  background-color: #f5f5f5;
+}
+/* 服务区域 */
+.service {
+  padding: 60px 0;
+  height: 178px;
+  border-bottom: 1px solid #e8e8e8;
+}
+.service ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+.service li {
+  width: 190px;
+  height: 58px;
+  /* background-color: blue; */
+}
+.service ul li {
+  display: flex;
+}
+.service ul li h5 {
+  width: 58px;
+  height: 58px;
+  background-image: url(../images/sprite.png);
+  margin-right: 20px;
+}
+.service ul li:nth-child(2) h5 {
+  background-position: 0 -58px;
+}
+.service ul li:nth-child(3) h5 {
+  background-position: 0 -116px;
+}
+.service ul li:nth-child(4) h5 {
+  background-position: 0 -174px;
+}
+.service ul li i {
+  font-size: 28px;
+
+  line-height: 58px;
+}
+
+/* 帮助中心 */
+.help .left {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 60px;
+  height: 300px;
+  /* background-color: pink; */
+}
+.help dl {
+  margin-right: 84px;
+}
+.help dl dt {
+  font-weight: 700px;
+  margin-bottom: 20px;
+}
+.help dl dd a {
+  color: #adabab;
+  padding-bottom: 5px;
+}
+.help .right ul {
+  display: flex;
+}
+.help .right .pic {
+  width: 120px;
+  height: 120px;
+  margin-bottom: 10px;
+}
+.help .right li:first-child {
+  margin-right: 55px;
+}
+.help .right p {
+  color: #969696;
+  text-align: center;
+}
+
+/* 版权区域 */
+.copyright {
+  /* text-align: center; */
+}
+.copyright .top ul {
+  display: flex;
+  margin-left: 300px;
+}
+.copyright .top li a {
+  padding-right: 10px;
+  margin-right: 15px;
+  color: #adabab;
+  border-right: 2px solid #e8e8e8;
+}
+
+.copyright .bottom {
+  margin-top: 10px;
+  font-size: 20px;
+  text-align: center;
+  color: #adabab;
+}
+
+/* 新鲜好物 */
+.title {
+  display: flex;
+  height: 42px;
+  /* background-color: pink; */
+  margin-top: 40px;
+  margin-bottom: 30px;
+  justify-content: space-between;
+  line-height: 42px;
+}
+.title .left {
+  display: flex;
+}
+.title .left h3 {
+  margin-right: 20px;
+}
+.title .left p {
+  margin-top: 4px;
+  font-size: 12px;
+  color: #ccc;
+}
+.title .right {
+  display: flex;
+}
+.title .right div a,
+.title .right span {
+  font-size: 12px;
+  color: #ccc;
+}
+.title .right span {
+  margin-top: 2px;
+  margin-left: 10px;
+}
+.bd ul {
+  display: flex;
+  justify-content: space-between;
+}
+.bd ul li {
+  width: 304px;
+  height: 404px;
+  background-color: #eef9f4;
+}
+.bd li a .pic {
+  width: 304px;
+  height: 304px;
+}
+.bd li a .txt {
+  text-align: center;
+  margin-top: 20px;
+}
+.bd li a .txt h4 {
+  margin-bottom: 5px;
+}
+.bd li a .txt p {
+  color: red;
+}
